@@ -1,0 +1,110 @@
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+@font-face { font-family: corecircus; 
+             src: url('CoreCircus.ttf'); } 
+
+    body {
+        background-color: #0c0c0c;
+        overflow: hidden;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .title {
+        color: #f5f5f5;
+        font-size: 300%;
+        font-family: corecircus;
+        text-align: center;
+        padding-top: 1%;
+        letter-spacing: 5%;
+        overflow: hidden;
+    }
+
+
+
+
+    #models {
+        color: #f5f5f5;
+        font-family: corecircus;
+        text-align: center;
+        font-size: 120%;
+        margin-left: -100%;
+    }
+
+    #misc {
+        color: #f5f5f5;
+        font-family: corecircus;
+        text-align: center;
+        font-size: 120%;
+        margin-left: -70%;
+    }
+
+    #contact {
+        color: #f5f5f5;
+        font-family: corecircus;
+        text-align: center;
+        font-size: 120%;
+        margin-left: -15%;
+    }
+
+    #about {
+        color: #f5f5f5;
+        font-family: corecircus;
+        text-align: center;
+        font-size: 120%;
+        margin-left: -1%;
+        margin-right: -30%;
+    }
+
+ul {
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+}
+
+    a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8
+}
+
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    box-shadow: ;
+
+}
+
+.side {
+  position: relative;
+  color: white;
+  background-color: ;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-left: 0.2em solid #f5f5f5;
+    border-right: 0.2em solid #f5f5f5;
+  font-family: 'Roboto', serif;
+  font-size: 130%;
+  font-weight: 100;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.side cite {font-size: 50%; text-align:center; top:50%}
+.side cite:before {content: ' \2015 '}
